@@ -19,7 +19,7 @@ mod templates;
 static ALLOWED_ORIGINS: Lazy<[&str; 2]> = Lazy::new(|| [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://animetstream-taupe.vercel.app/"
+    "https://animetstream-taupe.vercel.app/",
 ]);
 
 // Reqwest client pool
